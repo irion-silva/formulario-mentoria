@@ -25,11 +25,7 @@ body {
 body::before {
   content: '';
   background-color: var(--primary-color);
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 8a1a6ba6e0d6c8886c9a202e9d08f360981b10f2
   position: absolute;
   top: 0;
   right: 0;
@@ -42,12 +38,7 @@ body::before {
 
 .page {
   margin: 0 auto;
-<<<<<<< HEAD
   padding-bottom: 50px;
-=======
-  padding-bottom: 365px;
-  
->>>>>>> 8a1a6ba6e0d6c8886c9a202e9d08f360981b10f2
   position: relative;
 
   width: 750px;
@@ -66,12 +57,8 @@ header h1 {
 
 header h1,
 legend,
-<<<<<<< HEAD
 h3,
 button {
-=======
-h3, button {
->>>>>>> 8a1a6ba6e0d6c8886c9a202e9d08f360981b10f2
   font-family: 'Staatliches', cursive;
   font-weight: normal;
 }
@@ -200,11 +187,7 @@ label span {
   border: 0;
   border-radius: 20px;
   color: var(--white);
-<<<<<<< HEAD
   font-size: 20px;
-=======
-
->>>>>>> 8a1a6ba6e0d6c8886c9a202e9d08f360981b10f2
   width: 610px;
   height: 55px;
 
@@ -217,7 +200,6 @@ label span {
 
 footer {
   position: absolute;
-<<<<<<< HEAD
   bottom: 0;
   left: 50%;
 
@@ -234,11 +216,4 @@ footer a {
 
 footer a:hover {
   font-weight: bold;
-=======
-  bottom:0;
-  left: 50%;
-  
-  text-align: center;
-  transform: translateX(-50%);
->>>>>>> 8a1a6ba6e0d6c8886c9a202e9d08f360981b10f2
 }
