@@ -10,8 +10,8 @@ Este é um projeto desenvolvido pela equipe da Rocketseat para criar um formulá
 - [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 - [Acesso ao Projeto](#acesso-ao-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Desenvolvedores do Projeto](#pessoas-desenvolvedoras-do-projeto)
 - [Pessoas Contribuidoras](#pessoas-contribuidoras)
-- [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras-do-projeto)
 - [Licenças](#licenças)
 
 ## Descrição do Projeto
