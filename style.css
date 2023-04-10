@@ -1,0 +1,219 @@
+:root {
+  --primary-color: #535971;
+  --secondary-color: #4E4958;
+  --tertiary-color: #C1BCCC;
+  --quarternary-color: #FF5374;
+  --bg-color: #EFEFEF;
+  --input-color: #FAFAFC;
+  --white: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+body::before {
+  content: '';
+  background-color: var(--primary-color);
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  height: 436px;
+  width: 100%;
+
+  z-index: -1;
+}
+
+.page {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  position: relative;
+
+  width: 750px;
+}
+
+header {
+  height: 130px;
+  margin-top: 140px;
+}
+
+header h1 {
+  color: var(--white);
+  font-size: 48px;
+  line-height: 60px;
+}
+
+header h1,
+legend,
+h3,
+button {
+  font-family: 'Staatliches', cursive;
+  font-weight: normal;
+}
+
+header h3 {
+  color: var(--white);
+  font-family: 'Poppins';
+  font-size: 20px;
+  line-height: 30px;
+
+  width: 417px;
+}
+
+#my-form {
+  background-color: var(--white);
+
+  border: 0px;
+  border-radius: 20px 20px 0px 0px;
+
+  margin-top: 60px;
+  padding: 64px;
+}
+
+fieldset {
+  border: 0;
+}
+
+fieldset:nth-child(2) {
+  margin: 32px 0;
+}
+
+legend {
+  color: var(--primary-color);
+  font-size: 24px;
+  line-height: 34px;
+
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+  margin-bottom: 32px;
+}
+
+h3 {
+  color: var(--primary-color);
+  font-size: 20px;
+  line-height: 34px;
+}
+
+label {
+  color: var(--secondary-color);
+  font-family: 'Poppins';
+  font-size: 14px;
+  line-height: 24px;
+}
+
+label span {
+  color: var(--tertiary-color);
+  font-family: 'Poppins';
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper span {
+  margin-left: 7px;
+}
+
+.col-2 {
+  display: flex;
+  gap: 22px;
+}
+
+.col-2 .input-wrapper input {
+  width: 300px;
+}
+
+.input-wrapper input {
+  background-color: var(--input-color);
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  color: var(--primary-color);
+
+  height: 56px;
+
+  padding: 16px;
+  margin: 8px 0 16px;
+}
+
+.col-3 {
+  display: flex;
+}
+
+.col-3 .input-wrapper input {
+  width: 140px;
+}
+
+#data-primeira-mentoria,
+#data-segunda-mentoria {
+  margin-right: 32px;
+  width: 300px;
+}
+
+#fim-primeira-mentoria,
+#fim-segunda-mentoria {
+  margin-left: 10px;
+}
+
+#submit {
+  background-color: var(--primary-color);
+  border-radius: 0px 0px 20px 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 160px;
+  width: 750px;
+}
+
+#submit button {
+  background-color: var(--quarternary-color);
+  border: 0;
+  border-radius: 20px;
+  color: var(--white);
+  font-size: 20px;
+  width: 610px;
+  height: 55px;
+
+  padding: 15px 40px;
+}
+
+#submit button:hover {
+  background-color: #ee4869;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+
+  color: var(--primary-color);
+
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+footer a {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+footer a:hover {
+  font-weight: bold;
+}
